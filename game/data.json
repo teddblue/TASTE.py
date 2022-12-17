@@ -1,6 +1,9 @@
 {
     "title":"template",
-
+    "tiles":[
+        {"name":"air", "texture":"air", "collision":[0,0,0,0]},
+        {"name":"brick", "texture":"bricks", "collision":[1,1,1,1]}
+    ],
     "maps":[
         {"width":5, "tiles":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]}
     ]
