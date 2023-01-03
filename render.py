@@ -1,14 +1,10 @@
 from tkinter import *
 from turtle import RawTurtle, TurtleScreen
-
-
+from PIL import Image
 
 window = Tk()
 window.title('TASTE renderer')
 window.geometry('256x240+8+8')
-canvas = Canvas(window)
-tScreen = TurtleScreen(canvas)
-pen = RawTurtle(tScreen)
 
 def DrawBlocks(Tiles):
         x = 0
